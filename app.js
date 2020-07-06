@@ -31,13 +31,21 @@ theeButton.addEventListener ('click', () => {
     if (!countsAsAYes(answer3)) {
         score++;
     }
+    console.log(countsAsAYes(answer3));
+    console.log(!countsAsAYes);
+    
 
-    console.log(score);
 
-    resultSpan.textContent = name + score;
+    
+
+
+    resultSpan.textContent = 'HEY ' + name + ' you are ' + score + '/3 METAL!';
 
 
 });
+
+
+
 
 // initialize state
 

@@ -75,15 +75,18 @@ main {
     overflow: scroll;
     height: 100%;
     width: 100%;
+
 }
 
 .words {
     color: crimson;
     text-shadow: whitesmoke 1px 1px;
+    margin-left: 50px;
 }
 
 li {
     font-weight: bolder;
+    margin-left: 75px;
 }
 
 ul {
@@ -98,6 +101,10 @@ ol {
 }
 
 article {
+    font-size: 40px;
+}
+
+span {
     font-size: 40px;
 }
 

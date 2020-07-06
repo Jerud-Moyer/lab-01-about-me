@@ -1,5 +1,5 @@
 export function countsAsAYes(word) {
-    const firstLetter = word.charAt(0);
-    const yesY = firstLetter === 'y' || 'Y';
-    return true;
-};
+    const firstLetter = word.charAt(0).toLowerCase();
+    const yesY = firstLetter === 'y';
+    return yesY;
+}
