@@ -2,6 +2,14 @@
 const theeButton = document.getElementById('theOneButton');
 console.log(theeButton);
 
+const resultSpan = document.getElementById('result');
+
+import { countsAsAYes } from './metalUtils.js';
+     
+
+
+
+
 theeButton.addEventListener ('click', () => {
     const name = prompt('What is your name?');
     const really = prompt('Wanna take the quiz?'); 
@@ -23,6 +31,10 @@ theeButton.addEventListener ('click', () => {
     if (!countsAsAYes(answer3)) {
         score++;
     }
+
+    console.log(score);
+
+    resultSpan.textContent = name + score;
 
 
 });
