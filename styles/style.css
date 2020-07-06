@@ -7,11 +7,11 @@ body {
     --color4: hsla(49, 34%, 97%, 1);
     --color5: hsla(324, 66%, 100%, 1);
 
-    /* --color1: hsla(45, 86%, 83%, 1);
+     --color1: hsla(45, 86%, 83%, 1);
     --color2: hsla(135, 65%, 98%, 1);
     --color3: hsla(315, 37%, 86%, 1);
     --color4: hsla(45, 73%, 98%, 1);
-    --color5: hsla(224, 40%, 79%, 1); */
+    --color5: hsla(224, 40%, 79%, 1); 
     
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
@@ -42,7 +42,7 @@ footer {
 
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 
@@ -58,6 +58,35 @@ header img {
     height: var(--header-height);
 }
 
+main {
+    background-image: url( './Ronnie-James-Dio-004.jpg' );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.words {
+    color: crimson;
+    text-shadow: whitesmoke 1px 1px;
+}
+
+li {
+    font-weight: bolder;
+}
+
+ul {
+    margin: 50px;
+    font-size: 35px;
+
+}
+
+ol {
+    margin: 50px;
+    font-size: 35px;
+}
+
+article {
+    font-size: 40px;
+}
 
 
 
