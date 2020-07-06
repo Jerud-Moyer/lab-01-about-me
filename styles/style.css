@@ -22,7 +22,14 @@ body {
     background-color: var(--color2);
 }
 
+button {
+    display: flex;
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    font-size: large;
 
+}
 
 
 header {
@@ -59,9 +66,15 @@ header img {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-image: url( './Ronnie-James-Dio-004.jpg' );
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
 }
 
 .words {
@@ -74,13 +87,13 @@ li {
 }
 
 ul {
-    margin: 50px;
+    margin: 35px;
     font-size: 35px;
 
 }
 
 ol {
-    margin: 50px;
+    margin: 35px;
     font-size: 35px;
 }
 
