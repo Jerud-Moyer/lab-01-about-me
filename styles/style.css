@@ -32,6 +32,7 @@ button {
     align-items: center;
     color: whitesmoke;
     background-color: crimson;
+    border: solid yellowgreen 5px;
 }
 
 
