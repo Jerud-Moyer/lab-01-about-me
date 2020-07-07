@@ -52,7 +52,7 @@ footer {
 
 
 h2 {
-    font-size: 4rem;
+    font-size: 70px;
     font-weight: bold;
 }
 
@@ -79,7 +79,7 @@ main {
     height: 100%;
     width: 100%;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     border: solid yellowgreen 5px;
     border-radius: 15px;
 
@@ -100,13 +100,13 @@ li {
 
 ul {
 
-    margin: 35px;
+    margin: 15px;
     font-size: 30px;
 
 }
 
 ol {
-    margin: 35px;
+    margin: 15px;
     font-size: 30px;
 }
 
