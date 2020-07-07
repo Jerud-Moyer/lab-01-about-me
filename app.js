@@ -12,8 +12,8 @@ import { countsAsAYes } from './metalUtils.js';
 
 theeButton.addEventListener ('click', () => {
     const name = prompt('What is your name?');
-    const really = prompt('Wanna take the quiz?'); 
-        if (really === false) return;
+    const really = prompt('Wanna take the quiz?');
+    if (!countsAsAYes(really)) return;
     const answer1 = prompt('Is the Flying V a metal guitar?');
     const answer2 = prompt('Does OZZY rule?');
     const answer3 = prompt('Is IPA metal?');
@@ -33,7 +33,7 @@ theeButton.addEventListener ('click', () => {
     }
     console.log(countsAsAYes(answer3));
     console.log(!countsAsAYes);
-    
+
 
 
     
