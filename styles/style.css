@@ -29,6 +29,7 @@ button {
     margin: 20px;
     font-size: large;
     justify-content: right;
+    align-items: center;
     color: whitesmoke;
     background-color: crimson;
 }
@@ -79,6 +80,8 @@ main {
     width: 100%;
     justify-content: center;
     align-items: center;
+    border: solid yellowgreen 5px;
+    border-radius: 15px;
 
 }
 
@@ -89,24 +92,27 @@ main {
 }
 
 li {
-    font-weight: 10px;
+    font-weight: bolder;
     margin-left: 75px;
+    text-shadow: whitesmoke 3px 2px;
     
 }
 
 ul {
+
     margin: 35px;
-    font-size: 25px;
+    font-size: 30px;
 
 }
 
 ol {
     margin: 35px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 article {
     font-size: 40px;
+   
 }
 
 span {
